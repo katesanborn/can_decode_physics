@@ -2,7 +2,7 @@
 
 This repository contains the code used for the multi-stage CAN signal decoding pipeline.
 
-Specifically, this example demonstrates decoding the side radar data on a Nissan vehicle. All data used is contained in the data folder.
+Specifically, this example demonstrates decoding the side radar data on a Nissan vehicle. All data used must be added to the data folder. It is not stored on GitHub.
 
 The data in ```left_distance_381.csv``` contains a set of measurements and recorded CAN messages. The measurements represent how far a person was standing from the back car radar. While the person was standing there, the distance was measured, and the message was recorded. The values are matched temporally. It is assumed to be known that the radar messages are present in message ID 381.
 
